@@ -1,99 +1,62 @@
-# [Project Name] 🎯
+Advanced Robot Cleaner
+
+Introduction: I plan to build a robot that can identify the obstacles that the ultrasonic sensors can't and make the robot more futuristic.
+
+Project developer- Devi Anjana Anoop S
+
+Project: hardware project
+
+Project description: a fully functional robot that will not get stuck in between the shelves and will identify the space left under shelves and clean the area.
+
+Problem: I have a robot cleaner at home as there are many shelves the robot gets stuck in between the gaps and it requires human help to move. 
+
+How I solved this issue:
+ 
+-Technology support:
+       - Arduino IDE 2.3.4
+
+- Components used for this project :
+gear motor-2x
+Lithium-ion batteries
+Arduino uno rev3
+Motor driver-L298N
+Ultrasonic sensor
+Servos -2x
+Limit  switch-2x
+Jumper wires
+Breadboard
+cardboard
+
+SOLUTION
+
+- Here in the Arduino, the 3v and gnd are to ultrasonic-vcc and gnd, the second gnd and vin are connected to the breadboard 5v, and ultrasonic trig and echo are connected to Arduino’s, the rest half the wires are connected to a pushbutton switch. the pushbutton switch is used as the ultrasonic can only identify the area where it hits and comes so ultrasonic sensors won't be able to identify the rest areas here we include a pushbutton when it hits a shelf corner it will step back and with the help of servo it cleans the under area.
+
+PROGRAM OUTPUT
+Circuit diagram
+To this diagram i have added servo motors and limit switches
+Project
+Building stage
 
 
-## Basic Details
-### Team Name: [Name]
 
 
-### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
-
-### Hosted Project Link
-[mention your project hosted project link here]
-
-### Project Description
-[2-3 lines about what your project does]
-
-### The Problem statement
-[What ridiculous problem are you solving?]
-
-### The Solution
-[How are you solving it? Keep it fun!]
-
-## Technical Details
-### Technologies/Components Used
-For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
-
-### Implementation
-For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
-
-### Project Documentation
-For Software:
-
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Team](Add photo of your team here)
 
 
-![Components](Add photo of your components here)
-*List out all components shown*
 
-![Build](Add photos of build process here)
-*Explain the build steps*
 
-![Final](Add photo of final product here)
-*Explain the final build*
 
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
 
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+ 
 
----
-Made with ❤️ at TinkerHub
+
+
+
+
+
+
+
+
+
+
+
