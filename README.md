@@ -68,7 +68,7 @@ This project is open-source and available under the **MIT License**.
 ---
 
 ### Contact
-For any queries or suggestions, reach out to **[Your Contact Information or GitHub Profile]**.
+For any queries or suggestions, reach out to **devianjanaanoop9a@gmail.com**.
 
 ---
 
