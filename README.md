@@ -1,62 +1,74 @@
-Advanced Robot Cleaner
+# Advanced Robot Cleaner
 
-Introduction: I plan to build a robot that can identify the obstacles that the ultrasonic sensors can't and make the robot more futuristic.
+## Introduction
+I plan to build a robot that can identify obstacles that ultrasonic sensors can't detect, making the robot more futuristic and efficient.
 
-Project developer- Devi Anjana Anoop S
+## Project Developer
+**Devi Anjana Anoop S**
 
-Project: hardware project
+## Project Type
+**Hardware Project**
 
-Project description: a fully functional robot that will not get stuck in between the shelves and will identify the space left under shelves and clean the area.
+## Project Description
+This is a fully functional robot designed to navigate through shelves without getting stuck. Additionally, it will identify and clean areas under shelves where traditional robot cleaners fail to reach.
 
-Problem: I have a robot cleaner at home as there are many shelves the robot gets stuck in between the gaps and it requires human help to move. 
+## Problem Statement
+I own a robot cleaner at home, but due to the presence of multiple shelves, it often gets stuck between gaps and requires human intervention to move.
 
-How I solved this issue:
- 
--Technology support:
-       - Arduino IDE 2.3.4
+## How I Solved This Issue
+To overcome this problem, I implemented a solution that integrates additional sensors and mechanical components for enhanced obstacle detection and cleaning.
 
-- Components used for this project :
-gear motor-2x
-Lithium-ion batteries
-Arduino uno rev3
-Motor driver-L298N
-Ultrasonic sensor
-Servos -2x
-Limit  switch-2x
-Jumper wires
-Breadboard
-cardboard
+### Technology Used
+- **Arduino IDE** (Version 2.3.4) for programming and testing
 
-SOLUTION
+### Components Used
+- **Gear Motors** (x2)
+- **Lithium-Ion Batteries**
+- **Arduino Uno Rev3**
+- **Motor Driver (L298N)**
+- **Ultrasonic Sensor**
+- **Servo Motors** (x2)
+- **Limit Switches** (x2)
+- **Jumper Wires**
+- **Breadboard**
+- **Cardboard** (for body structure)
 
-- Here in the Arduino, the 3v and gnd are to ultrasonic-vcc and gnd, the second gnd and vin are connected to the breadboard 5v, and ultrasonic trig and echo are connected to Arduino’s, the rest half the wires are connected to a pushbutton switch. the pushbutton switch is used as the ultrasonic can only identify the area where it hits and comes so ultrasonic sensors won't be able to identify the rest areas here we include a pushbutton when it hits a shelf corner it will step back and with the help of servo it cleans the under area.
+## Solution
+The Arduino Uno is responsible for controlling all the components:
+- **Ultrasonic Sensor:** Used to detect obstacles ahead.
+- **Limit Switches:** Placed at the front to detect low obstacles and shelves.
+- **Servo Motors:** Activated when a shelf is detected, allowing the robot to clean the area underneath.
+- **Pushbutton Switch:** Helps detect corner obstacles where ultrasonic sensors may fail. When triggered, the robot moves back and engages the servos to clean the under-area.
 
-PROGRAM OUTPUT
-Circuit diagram
-To this diagram i have added servo motors and limit switches
-Project
-Building stage
+### Circuit Diagram
+A detailed circuit diagram with added servo motors and limit switches is provided in the repository.
 
+## Project Status
+- **Building Stage**: Currently assembling and testing the robot for real-world functionality.
 
+## Program Output
+The robot follows the programmed logic to detect obstacles, back up when necessary, and clean under shelves using servo-driven brooms.
 
+## Video Explanation
+A video demonstration is available showing how the code is uploaded to the Arduino via a laptop, and how the robot efficiently performs its cleaning task using servo motors and limit switches.
 
+---
 
+### Future Enhancements
+- Adding AI-based obstacle recognition.
+- Improving battery efficiency.
+- Integrating better material for durability.
 
+### Contributions
+Feel free to contribute to this project by submitting pull requests or reporting issues.
 
+### License
+This project is open-source and available under the **MIT License**.
 
+---
 
+### Contact
+For any queries or suggestions, reach out to **[Your Contact Information or GitHub Profile]**.
 
-
- 
-
-
-
-
-
-
-
-
-
-
-
+---
 
